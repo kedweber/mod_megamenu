@@ -1,0 +1,17 @@
+{
+  "name": "cta/megamenu",
+  "type": "joomlatools-installer",
+  "description": "Megamenu",
+  "keywords": ["joomla", "nooku", "menu"],
+  "homepage": "https://github.com/cta-int/megamenu",
+  "authors": [
+    {
+      "name": "Jasper van Rijbroek",
+      "email": "jasper@moyoweb.nl",
+      "homepage": "http://www.moyoweb.nl"
+    }
+  ],
+  "require": {
+    "joomlatools/installer": "*"
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6">
+    <name>Megamenu</name>
+    <author>Moyo Web Architects</author>
+    <creationDate>March 2015</creationDate>
+    <packagename>megamenu</packagename>
+    <version>0.0.1</version>
+    <url>http://www.moyoweb.nl/</url>
+    <packager>Jasper van Rijbroek</packager>
+    <packagerurl>http://www.moyoweb.nl/</packagerurl>
+    <description>Megamenu Package</description>
+    <files folder="packages">
+        <file type="module" id="megamenu">module</file>
+    </files>
+</extension>

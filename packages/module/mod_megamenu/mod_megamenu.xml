@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+    <name>Mod MegaMenu</name>
+    <author>Jasper van Rijbroek</author>
+    <creationDate>March 2015</creationDate>
+    <copyright>Copyright (C) 2005 - 2015 Moyo Web Architects. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>jasper@moyoweb.nl</authorEmail>
+    <authorUrl>http://moyoweb.nl</authorUrl>
+    <version>0.0.1</version>
+    <description>Mod Categories</description>
+    <files>
+        <file module="mod_megamenu">mod_megamenu.php</file>
+        <file>html.php</file>
+
+        <folder>tmpl</folder>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="menu_position_1" addfieldpath="/modules/mod_megamenu/fields">
+                <field name="name-1" type="text" label="Menu 1 Title" />
+                <field name="description-1" type="text" label="Menu 1 Description" />
+                <field name="menu-1" type="menu" label="Menu 1 Menu" />
+                <field name="color-1" type="color" label="Menu 1 Color" />
+                <field name="featured-1" type="featured" label="Menu 1 Featured" />
+            </fieldset>
+            <fieldset name="menu_position_2" addfieldpath="/modules/mod_megamenu/fields">
+                <field name="name-2" type="text" label="Menu 2 Title" />
+                <field name="description-2" type="text" label="Menu 2 Description" />
+                <field name="menu-2" type="menu" label="Menu 2 Menu" />
+                <field name="color-2" type="color" label="Menu 2 Color" />
+                <field name="featured-2" type="featured" label="Menu 2 Featured" />
+            </fieldset>
+            <fieldset name="menu_position_3" addfieldpath="/modules/mod_megamenu/fields">
+                <field name="name-3" type="text" label="Menu 3 Title" />
+                <field name="description-3" type="text" label="Menu 3 Description" />
+                <field name="menu-3" type="menu" label="Menu 3 Menu" />
+                <field name="color-3" type="color" label="Menu 3 Color" />
+                <field name="featured-3" type="featured" label="Menu 3 Featured" />
+            </fieldset>
+            <fieldset name="menu_position_4" addfieldpath="/modules/mod_megamenu/fields">
+                <field name="name-4" type="text" label="Menu 4 Title" />
+                <field name="description-4" type="text" label="Menu 4 Description" />
+                <field name="menu-4" type="menu" label="Menu 4 Menu" />
+                <field name="color-4" type="color" label="Menu 4 Color" />
+                <field name="featured-4" type="featured" label="Menu 4 Featured" />
+            </fieldset>
+            <fieldset name="menu_position_5" addfieldpath="/modules/mod_megamenu/fields">
+                <field name="name-5" type="text" label="Menu 5 Title" />
+                <field name="description-5" type="text" label="Menu 5 Description" />
+                <field name="menu-5" type="menu" label="Menu 5 Menu" />
+                <field name="color-5" type="color" label="Menu 5 Color" />
+                <field name="featured-5" type="featured" label="Menu 5 Featured" />
+            </fieldset>
+            <fieldset name="menu_position_6" addfieldpath="/modules/mod_megamenu/fields">
+                <field name="name-6" type="text" label="Menu 6 Title" />
+                <field name="description-6" type="text" label="Menu 6 Description" />
+                <field name="menu-6" type="menu" label="Menu 6 Menu" />
+                <field name="color-6" type="color" label="Menu 6 Color" />
+                <field name="featured-6" type="featured" label="Menu 6 Featured" />
+            </fieldset>
+            <fieldset name="menu_position_7" addfieldpath="/modules/mod_megamenu/fields">
+                <field name="name-7" type="text" label="Menu 7 Title" />
+                <field name="description-7" type="text" label="Menu 7 Description" />
+                <field name="menu-7" type="menu" label="Menu 7 Menu" />
+                <field name="color-7" type="color" label="Menu 7 Color" />
+                <field name="featured-7" type="featured" label="Menu 7 Featured" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
