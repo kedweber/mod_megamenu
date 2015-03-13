@@ -10,6 +10,6 @@
     <packagerurl>http://www.moyoweb.nl/</packagerurl>
     <description>Megamenu Package</description>
     <files folder="packages">
-        <file type="module" id="megamenu">module</file>
+        <file type="module" id="megamenu">modules</file>
     </files>
 </extension>
