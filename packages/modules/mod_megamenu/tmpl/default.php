@@ -55,7 +55,7 @@
 
                                     <? $featured = ${'featured' . $i}; ?>
                                     <? if($featured) : ?>
-                                        <div class="col-md-3 featured">
+                                        <div class="col-md-3 featured" style="border-left-color: <?= $params->{'color-' . $i}; ?>">
                                             <h1 class="title">
                                                 <?= @text('Featured'); ?>
                                             </h1>
