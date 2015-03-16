@@ -60,9 +60,11 @@
                                                 <?= @text('Featured'); ?>
                                             </h1>
                                             
-                                            <?= KService::get('com://admin/cloudinary.controller.image')->path(($featured->image ? $featured->image : ''))->attribs(array('class' => 'img-responsive'))->display(); ?>
-                                            
-                                            <?= $featured->title; ?>
+                                            <p>
+                                                <?= KService::get('com://admin/cloudinary.controller.image')->path(($featured->image ? $featured->image : ''))->attribs(array('class' => 'img-responsive'))->display(); ?>
+                                                
+                                                <?= $featured->title; ?>
+                                            </p>
                                         </div>
                                     <? endif; ?>
                                 </div>
