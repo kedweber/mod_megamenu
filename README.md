@@ -19,18 +19,30 @@ The MegaMenu module was written my [Moyo Web Architects](http://moyoweb.nl).
 Installation is done through composer. In your `composer.json` file, you should add the following lines to the repositories
 section:
 
+from the local repository;
+
 ```json
 {
-    "name": "cta/megamenu",
+    "name": "moyo/mod_megamenu",
     "type": "vcs",
-    "url": "https://github.com/cta-int/megamenu.git"
+    "url": "https://github.com/kedweber/mod_megamenu.git"
+}
+```
+
+and from the official repository;
+
+```json
+{
+    "name": "moyo/mod_megamenu",
+    "type": "vcs",
+    "url": "https://github.com/moyoweb/mod_megamenu.git"
 }
 ```
 
 The require section should contain the following line:
 
 ```json
-    "cta/megamenu": "1.0.*",
+    "moyo/mod_megamenu": "1.0.*",
 ```
 
 Afterwards, one just needs to run the command `composer update` from the root of your Joomla project. This will 
