@@ -1,8 +1,8 @@
-# mod_megamenu
+# MegaMenu Module \(mod_megamenu\)
 
 A Joomla! module that provides an extensive Website menu/navbar showing children of Navigation Categories and Featured Items. This would effectively replace the classic menu is hidden. This module is written on [Twitter Bootstrap 3](http://getbootstrap.com).
 
-The MegaMenu module was written my [Moyo Web Architects](http://moyoweb.nl).
+The MegaMenu module was written by [Moyo Web Architects](http://moyoweb.nl).
 
 ## Requirements
 
